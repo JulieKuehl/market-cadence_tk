@@ -1,6 +1,6 @@
 <?php
 /**
- * The template used for displaying page content in page.php
+ * The template used for displaying page content in front-page.php
  *
  * @package _tk
  */
@@ -25,12 +25,14 @@
 			<?php dynamic_sidebar( 'home-col-5' ); ?>
 		</div><!-- .home-page-columns -->
 
-		<?php
-			wp_link_pages( array(
-				'before' => '<div class="page-links">' . __( 'Pages:', '_tk' ),
-				'after'  => '</div>',
-			) );
-		?>
+		<div class="testimonial-columns">
+
+		</div><!-- .testimonial-columns -->
+
+		<div class="cta-box">
+			<?php dynamic_sidebar( 'home-cta-box' ); ?>
+		</div><!-- .cta-box -->
+
 	</div><!-- .entry-content -->
 	<?php edit_post_link( __( 'Edit', '_tk' ), '<footer class="entry-meta"><span class="edit-link">', '</span></footer>' ); ?>
 </article><!-- #post-## -->
