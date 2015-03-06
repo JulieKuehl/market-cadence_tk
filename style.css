@@ -195,7 +195,7 @@ th {
   padding: 0; }
 
 /* ----- SITE COLORS ----- */
-/* ----- ----- */
+/* ----- FONT ----- */
 /*--------------------------------------------------------------
 2.0 Home Page
 --------------------------------------------------------------*/
@@ -211,8 +211,9 @@ th {
 
 h3.widget-title {
   letter-spacing: .2em;
-  font-size: 15px;
-  font-size: 0.9375rem; }
+  text-transform: uppercase;
+  font-size: 20.8px;
+  font-size: 1.3rem; }
 
 .cta-box {
   background-color: #bdd4de; }

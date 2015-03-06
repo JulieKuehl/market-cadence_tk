@@ -41,9 +41,10 @@ Nicolas Gallagher and Jonathan Neal http://necolas.github.com/normalize.css/
 
 h3.widget-title {
     letter-spacing: .2em;
-    @include font-size(0.9375);
+    text-transform: uppercase;
+    @include font-size(1.3);
 }
 
 .cta-box {
-    background-color: #bdd4de;
+    background-color: $site-color-light;
 }
