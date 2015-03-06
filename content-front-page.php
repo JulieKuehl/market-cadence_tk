@@ -25,9 +25,13 @@
 			<?php dynamic_sidebar( 'home-col-5' ); ?>
 		</div><!-- .home-page-columns -->
 
+		<div class="clearfix"></div>
+
 		<div class="testimonial-columns">
 
 		</div><!-- .testimonial-columns -->
+
+		<div class="clearfix"></div>
 
 		<div class="cta-box">
 			<?php dynamic_sidebar( 'home-cta-box' ); ?>

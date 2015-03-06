@@ -196,6 +196,9 @@ th {
 
 /* ----- SITE COLORS ----- */
 /* ----- FONT ----- */
+.navbar-default .navbar-collapse, .navbar-default .navbar-form {
+  background-color: #f15623; }
+
 /*--------------------------------------------------------------
 2.0 Home Page
 --------------------------------------------------------------*/

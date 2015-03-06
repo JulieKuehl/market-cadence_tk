@@ -24,6 +24,10 @@ Nicolas Gallagher and Jonathan Neal http://necolas.github.com/normalize.css/
 @import "variables";
 @import "mixins/mixins-master";
 
+.navbar-default .navbar-collapse, .navbar-default .navbar-form {
+    background-color: $site-color-accent;
+}
+
 /*--------------------------------------------------------------
 2.0 Home Page
 --------------------------------------------------------------*/
